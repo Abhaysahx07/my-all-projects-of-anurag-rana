@@ -31,5 +31,6 @@ int main()
             break;
         default:
             printf("Invalid day number. Please enter a number between 1 and 7.");
-    }4
+    }
+    return 0;
 }
