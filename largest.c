@@ -24,4 +24,4 @@ int main()
         printf("The smallest number is: %d\n", num3);
     
     return 0;
-}
+}code 
