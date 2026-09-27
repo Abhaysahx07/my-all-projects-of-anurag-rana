@@ -1,26 +1,35 @@
-//Wap to find the day of the week for a given date.
-#include<stdio.h>
-int main()
-{
+// WAP TO PRINT DAY USING SWITCH CASE IN C PROGRAM.
+#include <stdio.h>
+int main() {
     int day;
-    printf("Enter the day number (1-7): ");
+    printf("Enter a number (1-7) to get the corresponding day of the week: ");
     scanf("%d", &day);
     
-    switch(day);
-    if (day == 1)
-        printf("Sunday");
-    else if (day == 2)
-        printf("Monday");
-    else if (day == 3)
-        printf("Tuesday");
-    else if (day == 4)
-        printf("Wednesday");
-    else if (day == 5)
-        printf("Thursday");
-    else if (day == 6)
-        printf("Friday");
-    else if (day == 7)
-        printf("Saturday");
-    else
-        printf("Invalid day number. Please enter a number between 1 and 7.");
+    switch(day) {
+        case 1:
+            printf("Sunday");
+            break;
+        case 2:
+            printf("Monday");
+            break;
+        case 3:
+            printf("Tuesday");
+            break;
+        case 4:
+            printf("Wednesday");
+            break;
+        case 5:
+            printf("Thursday");
+            break;
+        case 6:
+            printf("Friday");
+            break;
+        case 7:
+            printf("Saturday");
+            break;
+        default:
+            printf("Invalid input! Please enter a number between 1 and 7.");
+    }
+    
+    return 0;
 }
